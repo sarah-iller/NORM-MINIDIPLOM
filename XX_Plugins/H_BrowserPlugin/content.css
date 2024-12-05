@@ -19,3 +19,11 @@
     left: 0;
     transition: left 1s ease-in-out;
 }
+
+.navigation_content {
+    background-color: yellow;
+    width: 100%;
+    color: black;
+    writing-mode: horizontal-tb;
+
+}

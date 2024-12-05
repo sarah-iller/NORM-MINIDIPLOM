@@ -62,28 +62,116 @@ She knew they thought they remembered a warmness, like a blushing in the face, i
     thousands of dollars to her family. And so, the children hated her for all these reasons of
     big and little consequence. They hated her pale snow face, her waiting silence, her
     thinness, and her possible future. `,
-    ``,
-    ``,
+    `"Get away!" The boy gave her another push. "What're you waiting for?"`,
+    `Then, for the first time, she turned and looked at him. And what she was waiting for was in
+    her eyes.`,
+    `"Well, don't wait around here!" cried the boy savagely. "You won't see nothing!"`,
+    `Her lips moved.`,
+    `"Nothing!" he cried. "It was all a joke, wasn't it?" He turned to the other children.
+    "Nothing's happening today. Is it?"`,
+    `They all blinked at him and then, understanding, laughed and shook their heads.`,
+    `"Nothing, nothing!"`,
+    `"Oh, but," Margot whispered, her eyes helpless. "But this is the day, the scientists predict,
+    they say, they know, the sun..."`,
+    `"All a joke !" said the boy, and seized her roughly. "Hey, everyone, let's put her in a closet
+    before the teacher comes!"`,
+    `"No," said Margot, falling back.`,
+    `They surged about her, caught her up and bore her, protesting, and then pleading, and
+    then crying, back into a tunnel, a room, a closet, where they slammed and locked the door.
+    They stood looking at the door and saw it tremble from her beating and throwing herself
+    against it. They heard her muffled cries. Then, smiling, the turned and went out and back
+    down the tunnel, just as the teacher arrived.`,
+    `"Ready, children?" She glanced at her watch.`,
+    `"Yes!" said everyone.`,
+    `"Are we all here?"`,
+    `"Yes!"`,
+    `The rain slacked still more. They crowded to the huge door. The rain stopped.`,
+    `It was as if, in the midst of a film concerning an avalanche, a tornado, a hurricane, a
+    volcanic eruption, something had, first, gone wrong with the sound apparatus, thus
+    muffling and finally cutting off all noise, all of the blasts and repercussions and thunders,
+    and then, second, ripped the film from the projector and inserted in its place a beautiful
+    tropical slide which did not move or tremor. The world ground to a standstill. The silence
+    was so immense and unbelievable that you felt your ears had been stuffed or you had lost
+    your hearing altogether. The children put their hands to their ears. They stood apart. The
+    door slid back and the smell of the silent, waiting world came in to them.`,
+    `The sun came out.`,
+    `It was the color of flaming bronze and it was very large. And the sky around it was a blazing
+    blue tile color. And the jungle burned with sunlight as the children, released from their
+    spell, rushed out, yelling into the springtime.`,
+    `"Now, don't go too far," called the teacher after them. "You've only two hours, you know.
+    You wouldn't want to get caught out!"`,
+    `But they were running and turning their faces up to the sky and feeling the sun on their
+    cheeks like a warm iron; they were taking off their jackets and letting the sun burn their
+    arms.`,
+    `"Oh, it's better than the sun lamps, isn't it?"`,
+    `"Much, much better!"`,
+    `They stopped running and stood in the great jungle that covered Venus, that grew and
+    never stopped growing, tumultuously, even as you watched it. It was a nest of octopi,
+    clustering up great arms of fleshlike weed, wavering, flowering in this brief spring. It was
+    the color of rubber and ash, this jungle, from the many years without sun. It was the color
+    of stones and white cheeses and ink, and it was the color of the moon.`,
+    `The children lay out, laughing, on the jungle mattress, and heard it sigh and squeak under
+    them resilient and alive. They ran among the trees, they slipped and fell, they pushed each
+    other, they played hide-and-seek and tag, but most of all they squinted at the sun until the
+    tears ran down their faces; they put their hands up to that yellowness and that amazing
+    blueness and they breathed of the fresh, fresh air and listened to the silence which
+    suspended them in a blessed sea of no sound and no motion. They looked at everything
+    and savored everything. Then, wildly, like animals escaped from their caves, they ran and
+    ran in shouting circles. They ran for an hour and did not stop running.`,
+    `And then -in the midst of their running one of the girls wailed. Everyone stopped.`,
+    `The girl, standing in the open, held out her hand.`,
+    `"Oh, look, look," she said, trembling.`,
+    `They came slowly to look at her opened palm.`,
+    `In the center of it, cupped and huge, was a single raindrop. She began to cry, looking at it.
+    They glanced quietly at the sun.`,
+    `"Oh. Oh."`,
+    `A few cold drops fell on their noses and their cheeks and their mouths. The sun faded
+    behind a stir of mist. A wind blew cold around them. They turned and started to walk back
+    toward the underground house, their hands at their sides, their smiles vanishing away.`,
+    `A boom of thunder startled them and like leaves before a new hurricane, they tumbled
+    upon each other and ran. Lightning struck ten miles away, five miles away, a mile, a half
+    mile. The sky darkened into midnight in a flash.`,
+    `They stood in the doorway of the underground for a moment until it was raining hard. Then
+    they closed the door and heard the gigantic sound of the rain falling in tons and avalanches,
+    everywhere and forever.`,
+    `"Will it be seven more years?"`,
+    `"Yes. Seven."`,
+    `Then one of them gave a little cry.`,
+    `"Margot."`,
+    `"What?"`,
+    `"She's still in the closet where we locked her."`,
+    `"Margot."`,
+    `They stood as if someone had driven them, like so many stakes, into the floor. They looked
+    at each other and then looked away. They glanced out at the world that was raining now
+    and raining and raining steadily. They could not meet each other's glances. Their faces were
+    solemn and pale. They looked at their hands and feet, their faces down.`,
+    `"Margot."`,
+    `One of the girls said, "Well...?"`,
+    `No one moved.`,
+    `"Go on," whispered the girl.`,
+    `They walked slowly down the hall in the sound of cold rain. They turned through the
+    doorway to the room in the sound of the storm and thunder, lightning on their faces, blue
+    and terrible. They walked over to the closet door slowly and stood by it.`,
+    `Behind the closet door was only silence.`,
+    `They unlocked the door, even more slowly, and let Margot out.`
 ];
 
 
-    // Select all <p> elements on the page
-    const paragraphs = document.querySelectorAll("p");
-  
-    // Loop through paragraphs and add a snippet after each
-    paragraphs.forEach((paragraph, index) => {
-      if (index < snippets.length) {
+// Select all <p> elements on the page
+const paragraphs = document.querySelectorAll("p");
+
+// Loop through paragraphs and add a snippet after each
+paragraphs.forEach((paragraph, index) => {
+    if (index < snippets.length) {
         // Create a new inline-block element for the snippet
         const snippetElement = document.createElement("span");
+        snippetElement.classList.add("shortsory_span");
         snippetElement.textContent = snippets[index];
         snippetElement.style.display = "inline-block";
-        snippetElement.style.marginLeft = "10px"; // Optional spacing for readability
-        snippetElement.style.padding = "5px"; // Optional padding
-        snippetElement.style.backgroundColor = "#f0f0f0"; // Optional styling
-  
+
+
         // Insert the snippet after the paragraph
         paragraph.parentNode.insertBefore(snippetElement, paragraph.nextSibling);
-      }
-    });
+    }
+});
 
-  

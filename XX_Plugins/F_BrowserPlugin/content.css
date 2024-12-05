@@ -1,0 +1,50 @@
+/* @keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+}
+
+p:hover {
+  animation: pulse 1s infinite;
+} */
+
+
+/* p {
+  border-radius: 50%;
+  border: 5px solid black;
+  margin-left: 10vw !important;
+  margin-right: 10vw !important;
+
+  align-items: center;
+  text-align: center;
+} */
+
+/* button {
+transform: scale(3);
+} */
+
+a {
+  color: magenta !important;
+}
+
+* {
+  color: white;
+}
+
+h2 {
+  color: white !important;
+}
+
+img,
+video {
+  display: none !important;
+}
+
+#adnz_skyscraper_1,
+#adnz_maxiboard_1 {
+  display: none !important;
+}
+

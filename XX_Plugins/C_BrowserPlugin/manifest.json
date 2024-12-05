@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Image/Video Brightness 0, Text White, Data/Nintendo Reaction",
+  "version": "1.0",
+  "description": "Block Images and Videos and Text, only links remain, react to the word 'Data'",
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

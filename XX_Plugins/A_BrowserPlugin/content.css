@@ -1,0 +1,12 @@
+/* Styling the top message div */
+.top-message {
+
+    z-index: 1000;
+  }
+  
+  /* Styling the enlarged links */
+  .enlarged-link {
+    font-size: 20pt !important;
+    color: red;
+  }
+  

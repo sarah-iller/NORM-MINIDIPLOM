@@ -1,0 +1,14 @@
+a:hover {
+  letter-spacing: 10px;
+  transition: letter-spacing 2s ease;
+}
+
+img,
+video {
+  filter: brightness(0%);
+}
+
+p,
+div {
+  color: white;
+}

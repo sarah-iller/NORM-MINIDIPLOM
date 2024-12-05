@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Current Experiment_E",
+  "version": "1.0",
+  "description": "",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "scripting" 
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Link Font Enlarger with Message",
+  "version": "1.0",
+  "description": "Increase link font sizes and display a message at the top of the page.",
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

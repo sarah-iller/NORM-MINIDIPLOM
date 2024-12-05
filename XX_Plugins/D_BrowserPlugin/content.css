@@ -1,0 +1,19 @@
+/* a:hover {
+  letter-spacing: 10px;
+  transition: letter-spacing 2s ease;
+} */
+
+/* img,
+video {
+  filter: brightness(0%) !important;
+} */
+
+/* p,
+div {
+  color: black;
+} */
+
+html, body, main, div, a, article, canvas, footer, head, header, p, span, li, img, nav, li, ol, section, select, sup {
+  display: inline-block !important;
+}
+

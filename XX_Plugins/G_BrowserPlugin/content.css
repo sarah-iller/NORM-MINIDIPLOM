@@ -3,3 +3,8 @@
     transition: transform 0.2s ease;
     cursor: pointer;
 } */
+
+img {
+    height: 300px;
+    width: 300px;
+}

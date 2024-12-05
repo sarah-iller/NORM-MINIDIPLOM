@@ -1,7 +1,21 @@
 .navigation_left {
     position: absolute;
     top: 0;
-    width: 50px;
+    width: 70vw;
+    /* left: calc(14px - 70vw); */
+    left: 0;
+
+    height: 100%;
+    padding-left: 3px;
+    padding-top: 30vh;
     z-index: 100000;
+    align-items: center;
     background-color: magenta;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.navigation_left:hover {
+    left: 0;
+    transition: left 1s ease-in-out;
 }

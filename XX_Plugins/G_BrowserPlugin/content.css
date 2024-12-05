@@ -1,6 +1,5 @@
-.shortsory_span {
-  font-weight: bold;
-  line-height: 1.1em;
-  margin-left: 20vw;
-  text-align: left;
-}
+/* p:hover {
+    transform: rotate3d(1, 1, 1, 35deg);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+} */

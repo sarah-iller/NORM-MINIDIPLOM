@@ -1,33 +1,16 @@
-.navigation_left {
-    position: absolute;
-    top: 0;
-    width: 70vw;
-    /* left: calc(14px - 70vw); */
-    left: 0;
-
-    height: 130vh;
-    padding-left: 3px;
-    padding-top: 30vh;
-
-    
-    z-index: 100000;
-    align-items: center;
-    background-color: magenta;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-}
-
-.navigation_left:hover {
-    left: 0;
-    transition: left 1s ease-in-out;
-}
-
-.navigation_content {
-    background-color: yellow;
-    padding-left: 2em;
-    width: 100%;
-    height: 100%;
-    color: black;
-    writing-mode: horizontal-tb;
-
-}
+body {
+    cursor: none; /* Hide the default cursor */
+  }
+  
+  #custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    pointer-events: none; /* Prevent the cursor from blocking interactions */
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: width 0.1s ease, height 0.1s ease; /* Smooth scaling */
+  }
+  

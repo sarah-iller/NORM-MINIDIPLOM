@@ -1,0 +1,14 @@
+* {
+  border-radius: 0px !important;
+  /* transform: rotate3d(0, 0, 1, 180deg) !important; */
+
+}
+
+p, li, ul {
+  transform: rotate3d(0, 0, 1, 180deg);
+}
+
+
+h1, h2, h3, h4, a, span {
+  transform: rotate3d(0, 0, 1, 60deg) !important;
+}

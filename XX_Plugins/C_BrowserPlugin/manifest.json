@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Image/Video Brightness 0, Text White, Data/Nintendo Reaction",
+  "name": "C_Less distraction, focus on connections only",
   "version": "1.0",
   "description": "Block Images and Videos and Text, only links remain, react to the word 'Data'",
   "host_permissions": ["<all_urls>"],

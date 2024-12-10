@@ -1,16 +1,8 @@
-body {
-    cursor: none; /* Hide the default cursor */
-  }
-  
-  #custom-cursor {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 50%;
-    pointer-events: none; /* Prevent the cursor from blocking interactions */
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    transition: width 0.1s ease, height 0.1s ease; /* Smooth scaling */
+.generated-visual {
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none; /* Prevent visuals from interfering with clicks */
+    opacity: 1;
+    transition: all 0.5s ease;
   }
   

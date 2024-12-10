@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "G_Customize text",
+  "name": "J_turn the whole thing upside down",
   "version": "1.0",
   "description": "",
   "host_permissions": [
@@ -20,7 +20,6 @@
     }
   ],
   "permissions": [
-    "scripting" 
+    "scripting"
   ]
 }
-

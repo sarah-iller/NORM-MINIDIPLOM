@@ -13,7 +13,8 @@
         "style.css",
         "content.js",
         "snippet.html",
-        "svg/*.svg"
+        "svg/*.svg",
+        "knot_test.svg"
       ],
       "matches": [
         "<all_urls>"

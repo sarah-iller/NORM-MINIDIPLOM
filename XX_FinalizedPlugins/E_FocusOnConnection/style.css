@@ -1,4 +1,6 @@
-img,
-video {
-  filter: brightness(0%) !important;
+p,
+div,
+span,
+em {
+color: rgb(0, 0, 0, 0) !important;
 }

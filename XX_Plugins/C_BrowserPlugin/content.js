@@ -67,3 +67,19 @@ function findAndInsertAfterData(node) {
     node.childNodes.forEach(child => findAndInsertAfterData(child));
   }
 }
+
+
+
+// Listen for messages from the background script
+chrome.runtime.onMessage.addListener((message) => {
+  if (message.action === "activate") {
+    if (!isSVGActive) {
+      appendRandomSVGs();
+      isSVGActive = true;
+    }
+  } else if (message.action === "deactivate") {
+    // Remove all appended SVGs
+    document.querySelectorAll(".appended-svg").forEach((svg) => svg.remove());
+    isSVGActive = false;
+  }
+});

@@ -10,5 +10,13 @@
       "js": ["content.js"],
       "css": ["content.css"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "Toggle SVG Appender"
+  }
 }
+

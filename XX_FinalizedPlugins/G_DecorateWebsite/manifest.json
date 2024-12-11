@@ -12,7 +12,8 @@
       "resources": [
         "style.css",
         "content.js",
-        "snippet.html"
+        "snippet.html",
+        "svg/*.svg"
       ],
       "matches": [
         "<all_urls>"

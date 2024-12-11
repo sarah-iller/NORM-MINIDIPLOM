@@ -1,4 +1,11 @@
-img,
-video {
-  filter: brightness(0%) !important;
+.svg-inserter {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+
+.highlight-and {
+  color: inherit;
+  font-weight: bold;
 }

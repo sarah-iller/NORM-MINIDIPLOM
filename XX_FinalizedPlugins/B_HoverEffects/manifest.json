@@ -7,23 +7,12 @@
     "scripting",
     "activeTab"
   ],
-  "background": {
-    "service_worker": "assets/js/background.js"
-  },
-  "action": {
-    "default_title": "Toggle Extension",
-    "default_icon": {
-      "16": "assets/icons/icon-off.png",
-      "48": "assets/icons/icon-off.png",
-      "128": "assets/icons/icon-off.png"
-    }
-  },
   "web_accessible_resources": [
     {
       "resources": [
-        "assets/css/style.css",
-        "assets/js/content.js",
-        "assets/html/snippet.html"
+        "style.css",
+        "content.js",
+        "snippet.html"
       ],
       "matches": [
         "<all_urls>"
@@ -32,12 +21,9 @@
   ],
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "assets/js/content.js"
-      ]
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
     }
   ]
 }

@@ -6,6 +6,10 @@
     font-weight: 200;
 }
 
+body {
+    background-color: yellow;
+}
+
 main {
     text-align: justify;
     text-align-last: center;

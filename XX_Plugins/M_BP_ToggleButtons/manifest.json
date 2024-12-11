@@ -1,26 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "L_ Back to Text Only",
+  "name": "Red Background Toggler",
   "version": "1.0",
-  "description": "",
-  "host_permissions": [
-    "<all_urls>"
-  ],
+  "description": "Toggle red background for all <p> elements.",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle Red Background",
+    "default_icon": {
+      "16": "icons/icon-off.png",
+      "48": "icons/icon-off.png",
+      "128": "icons/icon-off.png"
+    }
+  },
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "css": [
-        "content.css"
-      ]
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
     }
-  ],
-  "permissions": [
-    "scripting" 
   ]
 }
-

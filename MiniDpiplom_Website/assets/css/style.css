@@ -1,11 +1,27 @@
-main {
-
-    text-align: center;
-    margin-left: 30vw;
-    margin-right: 30vw;
-
+* {
+    font-size: 18pt;
+    font-weight: normal;
+    font-feature-settings: "kern" 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
 }
 
-h1 {
+main {
     text-align: justify;
+    text-align-last: center;
+    width: 23em;
+    font-size: 21pt;
+    margin: 0 auto;
+}
+
+
+h1,
+h2 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+p {
+    margin: 0;
 }

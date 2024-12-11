@@ -1,0 +1,23 @@
+a:hover {
+    letter-spacing: 1em;
+}
+
+p:hover,
+span:hover {
+    letter-spacing: 0.1em !important;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+    letter-spacing: 0.8em !important;
+}
+
+a,
+p,
+span,
+h1,
+h2,
+h3 {
+    transition: all 1s ease !important;
+}

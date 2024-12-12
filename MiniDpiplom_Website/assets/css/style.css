@@ -4,6 +4,8 @@
     font-feature-settings: "kern" 1;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
+
+    transition: all 1s ease;
 }
 
 body {
@@ -11,13 +13,47 @@ body {
 }
 
 main {
-    text-align: justify;
-    text-align-last: center;
-    width: 23em;
     font-size: 21pt;
+}
+
+.main {
+    width: 23em;
+
     margin: 0 auto;
 }
 
+.navigation {
+    position: fixed;
+    top: auto;
+    left: auto;
+    margin: 0;
+}
+
+.nav-element {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition: all 1s ease;
+}
+
+.nav-element:hover {
+    letter-spacing: 0em;
+}
+
+table {}
+
+.introduction {
+
+    text-align: justify;
+    text-align-last: center;
+}
+
+.main-title {
+    position: absolute;
+
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+
+}
 
 h1,
 h2 {
@@ -31,10 +67,67 @@ a {
 }
 
 span.download_button {
+    font-size: 2em;
+    margin: 0;
     display: block;
     padding: 0.3em;
 }
 
+.download_button:hover {
+    padding-top: 0.5em;
+    font-style: normal;
+}
+
 p {
     margin: 0;
+}
+
+.plugin-list {
+    /* display: flexbox;
+    align-content: flex-start; */
+    text-align: left;
+    padding-left: 46%;
+}
+
+#first-plugin {
+    transition: all 1.5s ease;
+}
+
+#first-plugin:hover {
+    letter-spacing: 1em;
+}
+
+
+#second-plugin {
+    transition: all 0.2s ease;
+}
+
+#second-plugin:hover {
+    background-color: black;
+}
+
+tr {
+    cursor: help;
+}
+
+
+a:hover {
+    font-style: italic;
+}
+
+a {
+    color: blue;
+    transition: all 1s ease;
+}
+
+img {
+    /* display: none; */
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    pointer-events: none;
 }

@@ -90,11 +90,22 @@ p {
     margin: 0;
 }
 
-ul {
+ul.disc {
     text-align: left;
-    /* padding-left: 46%; */
+    list-style-type: disc; 
+    list-style-position: inside;
 }
 
+ul.circle {
+    list-style-type: none; 
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 1.2em;
+}
 
 tr {
     cursor: help;
@@ -121,3 +132,4 @@ img {
     opacity: 0.5;
     pointer-events: none;
 }
+

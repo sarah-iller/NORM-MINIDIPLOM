@@ -1,11 +1,14 @@
-.svg-inserter {
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  margin-right: 0.2em;
+.knot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px;  /* Adjust as needed */
+  z-index: 9999;
 }
 
-.highlight-and {
-  color: inherit;
-  font-weight: bold;
+.knot-container img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
 }

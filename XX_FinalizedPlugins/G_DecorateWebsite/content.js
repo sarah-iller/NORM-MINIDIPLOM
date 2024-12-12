@@ -1,58 +1,17 @@
-console.log("Content script loaded and running!");
+  // Create the container div
+  const container = document.createElement("div");
+  container.className = "knot-container";
 
-const svgFolder = "svg/";
-const svgFiles = ["knot_01.svg", "knot_02.svg", "knot_03.svg", "knot_04.svg"]; // Add your SVG filenames here
+  // Add the image element to the div
+  const img = document.createElement("img");
+  img.src = chrome.runtime.getURL("images/knot_01.png"); // Generate the correct path for the image
+  img.alt = "Knot Decoration";
 
-// Helper to get a random SVG
-function getRandomSVG() {
-    const randomIndex = Math.floor(Math.random() * svgFiles.length); // Define randomIndex here
-    const svgPath = chrome.runtime.getURL("knot_test.svg");
-    console.log(`Testing single SVG Path: ${svgPath}`);
+  // Append the image to the container
+  container.appendChild(img);
 
-    const img = document.createElement("img");
-    img.src = svgPath;
-    img.className = "svg-inserter";
-    return img;
-}
+  // Append the container to the body
+  document.body.appendChild(container);
 
-// Function to wrap "and" with a span and insert the SVG
-function processTextNodes(node) {
-    if (node.nodeType === Node.TEXT_NODE) {
-        console.log(`Processing text node: ${node.nodeValue}`);
-        const regex = /\b(and)\b/gi; // Match "and" case-insensitively
-        const text = node.nodeValue;
-
-        if (regex.test(text)) {
-            console.log(`Found "and" in text: ${text}`);
-            const fragment = document.createDocumentFragment();
-            const parts = text.split(regex);
-
-            parts.forEach((part, index) => {
-                if (index % 2 === 1) {
-                    // Insert SVG before the matched "and"
-                    const svg = getRandomSVG();
-                    fragment.appendChild(svg);
-
-                    // Wrap "and" with a span
-                    const span = document.createElement("span");
-                    span.className = "highlight-and";
-                    span.textContent = part;
-                    fragment.appendChild(span);
-                } else {
-                    fragment.appendChild(document.createTextNode(part));
-                }
-            });
-
-            node.replaceWith(fragment);
-        }
-    } else if (node.nodeType === Node.ELEMENT_NODE) {
-        console.log(`Processing element node: ${node.tagName}`);
-        // Recurse through child nodes
-        node.childNodes.forEach(processTextNodes);
-    }
-}
-
-// Start processing from the body element
-console.log("Starting to process the document body...");
-processTextNodes(document.body);
+  console.log("Knot decoration added to the page.");
 

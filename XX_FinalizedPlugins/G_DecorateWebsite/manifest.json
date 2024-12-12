@@ -1,31 +1,33 @@
 {
   "manifest_version": 3,
-  "name": "Decorate your Websites",
+  "name": "Web Decoration Extension",
   "version": "1.0",
-  "description": "",
-  "permissions": [
-    "scripting",
-    "activeTab"
+  "description": "Adds a decorative div with an image to the page.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "html": [
+        "snippet.html"
+      ]
+    }
   ],
   "web_accessible_resources": [
     {
       "resources": [
-        "style.css",
-        "content.js",
         "snippet.html",
-        "svg/*.svg",
-        "knot_test.svg"
+        "images/knot_01.png"
       ],
       "matches": [
         "<all_urls>"
       ]
-    }
-  ],
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["style.css"]
     }
   ]
 }

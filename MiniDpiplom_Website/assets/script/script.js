@@ -9,7 +9,7 @@ const response_schema = document.getElementById("img01");
 button_intro.addEventListener("click", () => {
     response_schema.style.filter = "blur(5px)";
     response_schema.style.width = "40vw";
-    // response_schema.style.opacity = "0.2";
+    response_schema.style.opacity = "0.5";
 
     response_intro.style.filter = "blur(0px)";
     response_intro.style.opacity = "1";

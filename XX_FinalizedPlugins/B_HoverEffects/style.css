@@ -1,23 +1,12 @@
-a:hover {
-    letter-spacing: 1em;
-}
-
+a:hover,
 p:hover,
-span:hover {
-    letter-spacing: 0.1em !important;
-}
-
+span:hover,
 h1:hover,
 h2:hover,
-h3:hover {
-    letter-spacing: 0.8em !important;
-}
-
-a,
-p,
-span,
-h1,
-h2,
-h3 {
-    transition: all 1s ease !important;
+h3:hover,
+ul:hover,
+li:hover,
+#text:hover
+ {
+    text-decoration: line-through;
 }

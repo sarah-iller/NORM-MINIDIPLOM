@@ -1,0 +1,43 @@
+    p,
+    li,
+    ul,
+    a,
+    table,
+    input,
+    textarea {
+      transform: rotate3d(0, 0, 1, 180deg);
+      animation: turbulence 3s infinite linear;
+    }
+
+    @keyframes turbulence {
+      0% {
+        transform: rotate3d(0, 0, 1, 0deg);
+      }
+
+      100% {
+        transform: rotate3d(0, 0, 1, 360deg);
+      }
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    div>a,
+    li,
+    ul,
+    p {
+      overflow: visible !important;
+    }
+    
+
+    /*
+    h1,
+    h2,
+    h3,
+    h4,
+    div>a,
+    li {
+      transform: rotate3d(0, 0, 1, 60deg) !important;
+    } */

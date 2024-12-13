@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Manage Your Extensions</title>
+    <style>
+        :root {
+            --active-color: rgb(138, 180, 248);
+            --active-color-alt: #596f92;
+            --inactive-color: gray;
+            --text-color: black;
+            --background: white;
+            --panel: white;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            background: var(--background);
+            color: var(--text-color);
+            padding: 0px;
+            margin: 0;
+        }
+
+        main {
+            background: var(--panel);
+            border-radius: 8px;
+            padding: 8px 10px;
+            min-width: 300px;
+        }
+
+        div.row {
+            padding: 4px;
+        }
+
+        label {
+            cursor: pointer;
+            transition-duration: 60ms;
+        }
+
+        label:hover {
+            color: black
+        }
+
+        .version {
+            display: none;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 27px;
+            margin: 4px 0 16px 8px;
+            cursor: default;
+            color: black;
+        }
+
+        h1 img {
+            height: 1.5em;
+            vertical-align: bottom
+        }
+
+        a {
+            color: blue;
+        }
+
+        label {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <img src="icons/icon.png" alt="Extensions Disabler" /> <br>
+        Manage Your Extensions <br>
+        <button id="reload">Reload ↺</button>
+        <script src="popup.js"></script>
+    </h1>
+
+    <main id="extensionsList"></main>
+    <script src="content_script.js"></script>
+</body>
+
+</html>

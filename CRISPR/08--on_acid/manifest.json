@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Blur Images and Videos",
+  "name": "08--on_acid",
   "version": "1.0",
-  "description": "",
+  "description": "Transforms ordinary media into surreal abstractions.",
   "permissions": [
     "scripting",
     "activeTab"

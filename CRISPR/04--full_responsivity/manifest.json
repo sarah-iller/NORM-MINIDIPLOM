@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Customize Text, Wherever you are",
+  "name": "04--full_responsivity",
   "version": "1.0",
-  "description": "",
+  "description": "Follows your movement, static web becomes responsive organism",
   "permissions": [
     "scripting",
     "activeTab"

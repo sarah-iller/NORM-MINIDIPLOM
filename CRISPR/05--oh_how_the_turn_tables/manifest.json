@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Turn Everything on its head",
+  "name": "05--oh_how_the_turn_tables",
   "version": "1.0",
-  "description": "",
+  "description": "Changes browsing perspectives by turning everything on its head.",
   "permissions": [
     "scripting",
     "activeTab"

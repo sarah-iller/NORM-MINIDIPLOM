@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Black-Out Images and Videos",
+  "name": "02--dark_mode",
   "version": "1.0",
-  "description": "",
+  "description": "Removes visual distractions by rendering all images and videos black",
   "permissions": [
     "scripting",
     "activeTab"

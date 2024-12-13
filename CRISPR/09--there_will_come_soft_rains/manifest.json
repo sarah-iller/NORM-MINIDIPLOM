@@ -1,12 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Excerpt from There will be soft Rains",
+  "name": "09--there_will_come_soft_rains",
   "version": "1.0",
-  "description": "",
-  "action": {
-    "default_title": "Click to view a popup",
-    "default_popup": "popup.html"
-  },
+  "description": "Snippets from “There Will Come Soft Rains” after each familiar paragraph",
   "permissions": [
     "scripting",
     "activeTab"

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Constantly Moving",
+  "name": "07--tornado",
   "version": "1.0",
-  "description": "",
+  "description": "Injects turbulent chaos into the web.",
   "permissions": [
     "scripting",
     "activeTab"

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Slant Headlines",
+  "name": "01--angle_baby",
   "version": "1.0",
-  "description": "",
+  "description": "Rotates key elements at at 60 degrees in 3D space.",
   "permissions": [
     "scripting",
     "activeTab"

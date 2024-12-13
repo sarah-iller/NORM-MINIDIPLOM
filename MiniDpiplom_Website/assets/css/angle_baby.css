@@ -1,0 +1,24 @@
+    /* p, li, ul {
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+   */
+
+    h1,
+    h2,
+    h3,
+    h4,
+    div>a,
+    li,
+    ul,
+    p {
+      overflow: visible !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    div>a,
+    li {
+      transform: rotate3d(0, 0, 1, 60deg) !important;
+    }

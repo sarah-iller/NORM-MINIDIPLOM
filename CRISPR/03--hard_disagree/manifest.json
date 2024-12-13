@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Hover/Slight Touch",
+  "name": "03--hard_disagree",
   "version": "1.0",
-  "description": "",
+  "description": "Adds a layer of skepticism to the browsing experience.",
   "permissions": [
     "scripting",
     "activeTab"

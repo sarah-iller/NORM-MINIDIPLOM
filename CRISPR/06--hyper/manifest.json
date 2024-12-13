@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Focus on Connection only",
+  "name": "06--hyper",
   "version": "1.0",
-  "description": "",
+  "description": "Lets you hyperfocus on all the connections around you",
   "permissions": [
     "scripting",
     "activeTab"

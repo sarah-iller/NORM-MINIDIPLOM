@@ -22,6 +22,7 @@ button {
 
 select {
     font-size: 21pt;
+    text-align: center;
 }
 
 .main {
@@ -47,6 +48,9 @@ select {
     letter-spacing: 0em;
 }
 
+.shortsory_span {
+    opacity: 0;
+}
 
 .introduction {
     text-align: justify;
@@ -92,12 +96,12 @@ p {
 
 ul.disc {
     text-align: left;
-    list-style-type: disc; 
+    list-style-type: disc;
     list-style-position: inside;
 }
 
 ul.circle {
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 input[type=checkbox] {
@@ -121,7 +125,12 @@ a {
     transition: all 1s ease;
 }
 
-img {
+img.inline {
+    height: 1em;
+    width: auto;
+}
+
+#img01 {
     z-index: 10000 !important;
     width: 40vw;
     position: absolute;
@@ -132,4 +141,3 @@ img {
     opacity: 0.5;
     pointer-events: none;
 }
-

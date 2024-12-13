@@ -1,8 +1,8 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 3,
-    "name": "Chrome Extensions Disabler",
-    "description": "Quickly enable/disable extensions",
+    "name": "00-CRISPR",
+    "description": "CRISPR, acts as the genetic editor of your web experience. It brings all its offspring under one intuitive interface, allowing you to activate, combine, or silence each with precision.",
     "version": "1.1.0",
     "icons": {
         "128": "icons/icon_02.png"

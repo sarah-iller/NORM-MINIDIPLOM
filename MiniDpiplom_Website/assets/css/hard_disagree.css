@@ -1,0 +1,12 @@
+a:hover,
+p:hover,
+span:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+ul:hover,
+li:hover,
+#text:hover
+ {
+    text-decoration: line-through;
+}

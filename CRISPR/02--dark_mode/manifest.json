@@ -3,6 +3,9 @@
   "name": "02--dark_mode",
   "version": "1.0",
   "description": "Removes visual distractions by rendering all images and videos black",
+  "icons": {
+    "128": "icons/icon_02.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

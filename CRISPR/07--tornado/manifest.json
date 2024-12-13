@@ -3,6 +3,9 @@
   "name": "07--tornado",
   "version": "1.0",
   "description": "Injects turbulent chaos into the web.",
+  "icons": {
+    "128": "icons/icon_07.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

@@ -3,6 +3,9 @@
   "name": "03--hard_disagree",
   "version": "1.0",
   "description": "Adds a layer of skepticism to the browsing experience.",
+  "icons": {
+    "128": "icons/icon_03.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

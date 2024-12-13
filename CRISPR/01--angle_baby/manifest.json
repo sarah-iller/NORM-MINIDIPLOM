@@ -3,6 +3,9 @@
   "name": "01--angle_baby",
   "version": "1.0",
   "description": "Rotates key elements at at 60 degrees in 3D space.",
+  "icons": {
+    "128": "icons/icon_01.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"
@@ -21,9 +24,15 @@
   ],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["style.css"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ]
     }
   ]
 }

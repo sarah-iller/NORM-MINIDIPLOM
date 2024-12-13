@@ -3,6 +3,9 @@
   "name": "05--oh_how_the_turn_tables",
   "version": "1.0",
   "description": "Changes browsing perspectives by turning everything on its head.",
+  "icons": {
+    "128": "icons/icon_05.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

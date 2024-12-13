@@ -3,6 +3,9 @@
   "name": "06--hyper",
   "version": "1.0",
   "description": "Lets you hyperfocus on all the connections around you",
+  "icons": {
+    "128": "icons/icon_06.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

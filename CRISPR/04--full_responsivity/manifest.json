@@ -3,6 +3,9 @@
   "name": "04--full_responsivity",
   "version": "1.0",
   "description": "Follows your movement, static web becomes responsive organism",
+  "icons": {
+    "128": "icons/icon_04.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

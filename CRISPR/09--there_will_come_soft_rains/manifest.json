@@ -3,6 +3,9 @@
   "name": "09--there_will_come_soft_rains",
   "version": "1.0",
   "description": "Snippets from “There Will Come Soft Rains” after each familiar paragraph",
+  "icons": {
+    "128": "icons/icon_09.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

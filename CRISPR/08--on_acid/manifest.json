@@ -3,6 +3,9 @@
   "name": "08--on_acid",
   "version": "1.0",
   "description": "Transforms ordinary media into surreal abstractions.",
+  "icons": {
+    "128": "icons/icon_08.png"
+  },
   "permissions": [
     "scripting",
     "activeTab"

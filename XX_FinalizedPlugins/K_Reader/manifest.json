@@ -3,6 +3,10 @@
   "name": "Excerpt from There will be soft Rains",
   "version": "1.0",
   "description": "",
+  "action": {
+    "default_title": "Click to view a popup",
+    "default_popup": "popup.html"
+  },
   "permissions": [
     "scripting",
     "activeTab"
@@ -27,3 +31,4 @@
     }
   ]
 }
+

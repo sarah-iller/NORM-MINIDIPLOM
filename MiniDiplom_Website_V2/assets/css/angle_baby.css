@@ -20,5 +20,5 @@
     h4,
     div>a,
     li {
-      transform: rotate3d(0, 0, 1, 60deg);
+      transform: rotate3d(0, 0, 1, 60deg) !important;
     }

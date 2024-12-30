@@ -4,13 +4,9 @@
     a,
     table,
     input,
-    textarea,
-    h1,
-    h2,
-    h3,
-    h4,
-    div>a {
-      animation: turbulence 3s infinite linear !important;
+    textarea {
+      transform: rotate3d(0, 0, 1, 180deg);
+      animation: turbulence 3s infinite linear;
     }
 
     @keyframes turbulence {
@@ -34,3 +30,14 @@
     p {
       overflow: visible !important;
     }
+    
+
+    /*
+    h1,
+    h2,
+    h3,
+    h4,
+    div>a,
+    li {
+      transform: rotate3d(0, 0, 1, 60deg) !important;
+    } */

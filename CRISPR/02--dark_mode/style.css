@@ -1,4 +1,14 @@
 img,
 video {
-  filter: brightness(0%) !important;
+  animation: darkMode 1s ease 0.5s 1 forwards;
+}
+
+@keyframes darkMode {
+  from {
+    filter: brightness(100%);
+  }
+
+  to {
+    filter: brightness(0%);
+  }
 }

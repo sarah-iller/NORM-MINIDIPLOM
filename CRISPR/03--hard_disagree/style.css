@@ -1,4 +1,4 @@
-a:hover,
+
 p:hover,
 span:hover,
 h1:hover,
@@ -6,7 +6,11 @@ h2:hover,
 h3:hover,
 ul:hover,
 li:hover,
-#text:hover
+#text:hover,
+.thumbcaption:hover,
+.theader:hover,
+figcaption:hover
  {
-    text-decoration: line-through;
+    text-decoration: line-through !important;
+    text-decoration-thickness: 7px !important;
 }

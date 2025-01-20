@@ -1,6 +1,15 @@
 img,
 video {
-  /* filter: brightness(0%) !important; */
-  filter: blur(20px) !important;
+  filter: brightness(100%) blur(0px);
+  animation: onAcid 1s ease 0.5s 1 forwards !important;
+}
 
+@keyframes onAcid {
+  from {
+    filter: brightness(100%) blur(0px); 
+  }
+
+  to {
+    filter: brightness(100%) blur(20px); 
+  }
 }

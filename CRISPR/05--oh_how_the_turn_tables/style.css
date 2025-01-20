@@ -5,7 +5,7 @@
     table,
     input,
     textarea {
-      transform: rotate3d(0, 0, 1, 180deg);
+      animation: turnTables 2s ease 0.5s 1 forwards;
     }
 
 
@@ -18,14 +18,15 @@
     ul,
     p {
       overflow: visible !important;
+      transition: transform 2s ease 2s !important;
     }
 
-    /*
-    h1,
-    h2,
-    h3,
-    h4,
-    div>a,
-    li {
-      transform: rotate3d(0, 0, 1, 60deg) !important;
-    } */
+    @keyframes turnTables {
+      from {
+        transform: rotate3d(0, 0, 1, 0deg);
+      }
+
+      to {
+        transform: rotate3d(0, 0, 1, 180deg);
+      }
+    }

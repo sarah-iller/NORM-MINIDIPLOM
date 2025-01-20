@@ -1,6 +1,30 @@
 .shortsory_span {
-  font-weight: bold;
-  line-height: 1.1em;
-  margin-left: 20vw;
-  text-align: left;
+  transition: 
+  text-align 2s ease,
+  margin-left 2s ease,
+  line-height 2s ease,
+  color 2s ease,
+  font-size 2s ease,
+  font-weight 2s ease !important;
+
+  animation: softRains 2s ease 1 forwards;
+
+}
+
+@keyframes softRains {
+  from {
+    color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    line-height: 0em;
+    margin-left: 0vw;
+    text-align: left;
+  }
+
+  to {
+    color: inherit;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin-left: 20vw;
+    text-align: left;
+  }
 }

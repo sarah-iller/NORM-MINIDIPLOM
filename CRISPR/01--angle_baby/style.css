@@ -12,6 +12,7 @@
     ul,
     p {
       overflow: visible !important;
+      transition: transform 2s ease 2s !important;
     }
 
     h1,
@@ -20,5 +21,15 @@
     h4,
     div>a,
     li {
-      transform: rotate3d(0, 0, 1, 60deg);
+      animation: angleBaby 2s ease 0.5s 1 forwards;
+    }
+
+    @keyframes angleBaby {
+      from {
+        transform: rotate3d(0, 0, 1, 0deg);
+      }
+
+      to {
+        transform: rotate3d(0, 0, 1, 60deg);
+      }
     }

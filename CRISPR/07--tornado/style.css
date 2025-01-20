@@ -10,7 +10,7 @@
     h3,
     h4,
     div>a {
-      animation: turbulence 3s infinite linear !important;
+      animation: turbulence 3s infinite linear 0.5s !important;
     }
 
     @keyframes turbulence {
